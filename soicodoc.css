@@ -52,7 +52,6 @@ letter-spacing: 3px;
 }
 
 body{ 
-    margin: 8px;
     margin-top: 0;
     color: #2c9080 !important;
    
@@ -257,15 +256,17 @@ nav .menu .grid{
     #chart{
         display: none;
     }
+    .truyen-container{
+        width: 600px;
+    }
 
  }
 
 
 
-.all{
+.truyen-container{
     display: grid;
     width:890px;
-    margin: 0% auto;
     background-color: rgb(0, 0, 0);
 }
 h2{
@@ -289,7 +290,7 @@ a{
 .truyenmoicapnhat{
     display:grid;
     grid-template-columns:2fr 1fr;  
-    margin-left: 10px;
+    margin: 5px;
 }
 .truyenmoicapnhat-1{
     display:grid;
@@ -328,6 +329,7 @@ a{
 .tentruyen div{
     height: 47px;
     padding:1px;
+    overflow: visible;
 }
 .theloai{
     display:grid;
@@ -338,6 +340,8 @@ a{
     list-style: none;
     margin-top: 15px;
 }
+
+
 
 
 
