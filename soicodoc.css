@@ -232,6 +232,13 @@ nav .menu .grid{
     
  }
 
+aside{
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+
 .container .ads{
     grid-area: ads;
     border: 2px solid #2c9080;
